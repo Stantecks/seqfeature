@@ -14,7 +14,7 @@ def test_n_neg_for_empty_sequence():
 
 def test_n_neg_for_longer_sequences():
     assert sf.n_neg('ACKLWTTAE') == 1
-    assert sf.n_neg('DDDDEEEE') == 9
+    assert sf.n_neg('DDDDEEEE') == 8
 
 
 def test_n_neg_for_lower_case_sequences():
